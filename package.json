@@ -1,33 +1,27 @@
 {
     "author": "SlimeGames <slime.games@outlook.de>",
     "name": "whatismyserverip",
-    "description": "Shows you server Ip.",
+    "description": "Searches and shows you server/local ip of your client",
     "version": "0.0.2",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SlimeGames/Node-Chat"
+        "url": "https://github.com/JosefBredereck/Node-WhatIsMyServerIP"
     },
     "main": "lib/wimsi.js",
-    "scripts": {
-        "test": "make test"
-    },
+    "scripts": {},
     "engines": {
-        "node": ">= 0.6.x"
+        "node": ">= 10"
     },
     "dependencies": {
-        "os": "*",
-        "colors": "*"
+        "colors": "^1.3.3",
+        "os": "^0.1.1"
     },
-    "devDependencies": {
-        "mocha": "0.13.0",
-        "should": "0.5.1",
-        "socket.io-client": "0.8.7"
-    },
+    "devDependencies": {},
     "optionalDependencies": {},
     "bugs": {
-        "url": "https://github.com/SlimeGames/Node-WhatIsMyServerIP/issues"
+        "url": "https://github.com/JosefBredereck/Node-WhatIsMyServerIP/issues"
     },
-    "homepage": "https://github.com/SlimeGames/Node-WhatIsMyServerIP#readme",
+    "homepage": "https://github.com/JosefBredereck/Node-WhatIsMyServerIP#readme",
     "keywords": [
         "server",
         "IP",
